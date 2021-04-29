@@ -1,0 +1,14 @@
+// 需要这个文件中定义AVRO的格式
+{
+    "namespace":"cn.tedu.pojo", // 相当于Java中的package
+    "type":"record", // 相当于Java中的class关键字
+    "name":"Student", // 相当于在Java中定义了一个类叫Student
+    "fields":
+    [
+        {"name":"name","type":"string"}, // private String name
+        {"name":"age","type":"int"},
+        {"name":"gender","type":"string"},
+        {"name":"height","type":"double"},
+        {"name":"weight","type":"double"}
+    ]
+}
